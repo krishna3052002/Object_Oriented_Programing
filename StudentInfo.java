@@ -60,6 +60,8 @@ public class StudentInfo {
         StudentInfo student3= new StudentInfo(2,202104013,"Shamim", true);
         student1.setRoll(1);
         student2.setRoll(2);
+
+        student3.setRoll(3);
         System.out.println("Student Information and Result of 3rd Semester"+"\n--------------------------------------------");
         System.out.println("Name : "+student1.getName()+"\nRoll : "+student1.getRoll()+"\nId   : "+student1.getId()+"\nPass : "+student1.isPass());
         System.out.println("--------------------------------------");
